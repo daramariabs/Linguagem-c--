@@ -13,16 +13,16 @@ int main(){
     if (tentativa1 > tentativa2 and tentativa1 > tentativa3)
     {
         maior = tentativa1;
+
+    }else if (tentativa2 > tentativa3)
+    {
+       maior = tentativa2;
+
     }else
     {
-        if (tentativa2 > tentativa3)
-        {
-            maior = tentativa2;
-        }else 
-        {
-            maior = tentativa3;
-        }   
+         maior = tentativa3;
     }
+   
 
     cout << "MAIOR DISTANCIA = " << maior;
     

@@ -17,16 +17,13 @@ int main(){
     if ( num1 < num2 and num1 < num3)
     {
         menor = num1;
+    }else if (num2 < num3)
+    {
+       menor = num2;  
     }else
     {
-        if (num2 < num3)
-        {
-            menor = num2;
-        }else
-        {
-            menor = num3;
-        }       
-    }
+        menor = num3;
+    }      
     
     cout << "MENOR = " << menor;
     return 0;

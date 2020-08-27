@@ -11,15 +11,14 @@ int main(){
     if (glicose <= 100)
     {
         cout << "CLASSIFICAÇÃO: NORMAL";
-    }else
+    }else if(glicose <= 140)
     {
-        if (glicose <= 140)
-        {
-           cout << "CLASSIFICAÇÃO: ELEVADO";
-        }else
-        {
-            cout << "CLASSIFICAÇÃO: DIABETES";
-        }     
-    }
+        cout << "CLASSIFICAÇÃO: ELEVADO";
+    }else
+     {
+          cout << "CLASSIFICAÇÃO: DIABETES";
+     }
+           
+   
     return 0;
 }
